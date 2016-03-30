@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">The Brain Training Game</string>
+<string name="main_title">Brain Training</string>
+<string name="continue_label">Continue</string>
+<string name="new_game_label">New Game</string>
+<string name="about_label">About</string>
+<string name="exit_label">Exit</string>
+   <string name="action_settings">Settings</string>
+   
+   <string name="about_text">\
+Info about the Brain Training Game..........
+The purpose of this game is to test your mathematics skills
+and to see if you are intellegent enough to pass all of the
+questions within this game.
+</string>
+
+<string name="new_game_title">Difficulty</string>
+<string name="novice_label">Novice</string>
+<string name="easy_label">Easy</string>
+<string name="medium_label">Medium</string>
+<string name="guru_label">Guru</string>
+
+<string name="game_title">Game</string>
+<string name="no_moves_label">No moves</string>
+<string name="keypad_title">Keypad</string>
+<string name="scoringyh">Your score afer 10 questions:</string>
+</resources>
+
+
+
+ 
