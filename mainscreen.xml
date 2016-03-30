@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/questionanswers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" ?"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/Guess"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Guess:"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+              
+    <TextView android:id="@+id/question_label"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="" />
+    
+    <TableLayout
+    android:id="@+id/keypad"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:stretchColumns="*">
+    
+    <TableRow>
+        
+	<Button android:id="@+id/keypad_1"
+            android:text="1"
+            android:onClick="keypad1">
+	</Button>
+        
+	<Button android:id="@+id/keypad_2"
+            android:text="2"
+            android:onClick="keypad2">
+	</Button>
+        
+	<Button android:id="@+id/keypad_3"
+            android:text="3"
+            android:onClick="keypad3">
+	</Button>
+    </TableRow>
+    
+    <TableRow>
+        
+	<Button android:id="@+id/keypad_4"
+            android:text="4"
+            android:onClick="keypad4">
+	</Button>
+	
+	<Button android:id="@+id/keypad_5"
+            android:text="5"
+            android:onClick="keypad5">
+	</Button>
+        
+	<Button android:id="@+id/keypad_6"
+            android:text="6"
+            android:onClick="keypad6">
+	</Button>
+    </TableRow>
+    
+    <TableRow>
+        
+	<Button android:id="@+id/keypad_7"
+            android:text="7"
+            android:onClick="keypad7">
+	</Button> 
+	
+	<Button android:id="@+id/keypad_8"
+            android:text="8"
+            android:onClick="keypad8">
+	</Button>
+	
+        <Button android:id="@+id/keypad_9"
+            android:text="9"
+            android:onClick="keypad9">
+        </Button>
+    	</TableRow>
+    
+	<TableRow>
+	    
+	<Button android:id="@+id/keypaddelete"
+            android:text="del"
+            android:onClick="keypaddelete">
+            
+	</Button>
+    
+	<TableRow>
+	<Button android:id="@+id/keypad_0"
+            android:text="0"
+            android:onClick="keypad0">
+            
+	</Button>
+	</TableRow>
+
+	<Button android:id="@+id/hash"
+            android:text="#">
+	</Button>
+        
+	<Button android:id="@+id/keypadminus"
+            android:text="-"
+            android:onClick="keypadminus">
+	
+	</Button>
+    </TableRow>
+
+</TableLayout>
+
+    <TextView
+        android:id="@+id/incorrectorcorrect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GOOD LUCK!"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/time_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:text="Time Remaining"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/timertxtfield"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/time_text"
+            android:layout_marginLeft="39dp"
+            android:text="Timer"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </RelativeLayout>
+
+</LinearLayout>
